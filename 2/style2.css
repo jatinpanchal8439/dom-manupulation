@@ -1,0 +1,58 @@
+
+body{
+   margin: 0px;
+   padding: 0px;   
+   box-sizing: border-box;
+     
+
+}
+html{
+     width: 100%;
+         height: 100%;
+}
+   body{
+        width: 100%;
+         height: 100%;
+      display: flex;
+             align-items: center;
+      justify-content: center;
+      background-color: cornflowerblue;
+     
+   
+   }
+
+  
+
+
+/* second project */
+.container{
+    border-radius: 10px;
+      height: 450px;
+      width: 300px;
+      background-color: rgb(252, 243, 243);
+      position: relative;
+      padding: 10px;
+      text-align: center;
+      overflow: hidden;
+
+   
+}
+.container img{
+   height: 100%;
+   width: 100%;
+   object-position: top;
+   object-fit: cover;
+
+}
+.container i{
+   color: antiquewhite;
+   font-size: 75px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0);
+   opacity: 0;
+   transition:transform ease 0.5s;
+
+ ;
+}
